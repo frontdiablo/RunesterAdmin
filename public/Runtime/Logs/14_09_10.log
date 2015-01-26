@@ -1,0 +1,22 @@
+[ 2014-09-10T00:58:38+08:00 ] 221.11.21.246 /index.php?s=/Adminx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003122s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.022669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\9a23780d1df432d01cb2940764d7a3a2.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002535s ]
+

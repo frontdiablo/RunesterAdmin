@@ -1,0 +1,52 @@
+[ 2014-12-25T18:40:03+08:00 ] 182.118.22.204 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] Use of undefined constant ADMINPATH - assumed 'ADMINPATH' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Home\Conf\config.php 第 8 行.
+NOTIC: [8] Use of undefined constant ADMINPATH - assumed 'ADMINPATH' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Home\Conf\config.php 第 12 行.
+NOTIC: [8] Use of undefined constant ADMINPATH - assumed 'ADMINPATH' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Home\Conf\config.php 第 13 行.
+NOTIC: [8] Use of undefined constant ADMINPATH - assumed 'ADMINPATH' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Home\Conf\config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ADMINPATH - assumed 'ADMINPATH' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Home\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2014-12-25T18:40:04+08:00 ] 182.118.44.166 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Use of undefined constant ADMINPATH - assumed 'ADMINPATH' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Home\Conf\config.php 第 8 行.
+NOTIC: [8] Use of undefined constant ADMINPATH - assumed 'ADMINPATH' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Home\Conf\config.php 第 12 行.
+NOTIC: [8] Use of undefined constant ADMINPATH - assumed 'ADMINPATH' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Home\Conf\config.php 第 13 行.
+NOTIC: [8] Use of undefined constant ADMINPATH - assumed 'ADMINPATH' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Home\Conf\config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ADMINPATH - assumed 'ADMINPATH' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Home\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+

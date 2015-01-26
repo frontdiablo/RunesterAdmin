@@ -1,0 +1,459 @@
+[ 2014-10-15T23:51:53+08:00 ] 125.41.139.23 /index.php?s=/Adminx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002870s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.017251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\9a23780d1df432d01cb2940764d7a3a2.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004587s ]
+
+[ 2014-10-15T23:52:02+08:00 ] 125.41.139.23 /index.php/Adminx/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003939s ]
+NOTIC: [8] Undefined index: autocheck D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `ra_admin` [ RunTime:0.015613s ]
+SQL: SELECT * FROM `ra_admin` WHERE ( `username` = 'avatar' ) LIMIT 1   [ RunTime:0.001462s ]
+NOTIC: [8] Undefined variable: set D:\website\wohenkaopu.cn\RunesterAdmin\Framework\Library\Think\Db.class.php 第 297 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\website\wohenkaopu.cn\RunesterAdmin\Framework\Library\Think\Db.class.php 第 297 行.
+SQL: UPDATE `ra_admin` SET  WHERE ( id = 2 ) [ RunTime:0.000208s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id = 2 )' at line 1
+ [ SQL语句 ] : UPDATE `ra_admin` SET  WHERE ( id = 2 )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2014-10-15T23:52:02+08:00 ] 125.41.139.23 /index.php/Adminx/Page/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002659s ]
+NOTIC: [2048] Declaration of Adminx\Controller\CommonController::show() should be compatible with that of Think\Controller::show() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\CommonController.class.php 第 225 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 30 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 24 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 52 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 54 行.
+NOTIC: [8] Undefined index: article D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 54 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 59 行.
+NOTIC: [8] Undefined index: admin D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 59 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 61 行.
+NOTIC: [8] Undefined index: rule D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 61 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 63 行.
+NOTIC: [8] Undefined index: nav D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 63 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 65 行.
+NOTIC: [8] Undefined index: config D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\e047bcd1a588a9562cdda918c4bf6faf.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ra_category` [ RunTime:0.009277s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 0 ) AND ( `cate_type` = 'page' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.001073s ]
+NOTIC: [8] Undefined variable: place D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 159 行.
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 14 ) AND ( `cate_type` = 'page' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000447s ]
+NOTIC: [8] Undefined variable: place D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 159 行.
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 15 ) AND ( `cate_type` = 'page' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000509s ]
+NOTIC: [8] Undefined variable: proval D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 81 行.
+NOTIC: [8] Undefined variable: proval D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2014-10-15T23:52:11+08:00 ] 125.41.139.23 /index.php/Adminx/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004304s ]
+NOTIC: [2048] Declaration of Adminx\Controller\CommonController::show() should be compatible with that of Think\Controller::show() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\CommonController.class.php 第 225 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 30 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ra_category` [ RunTime:0.006875s ]
+NOTIC: [8] Undefined index: pid D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 37 行.
+SQL: SELECT `title` FROM `ra_category` WHERE ( id =  ) LIMIT 1   [ RunTime:0.000372s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `title` FROM `ra_category` WHERE ( id =  ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ra_article` [ RunTime:0.018513s ]
+NOTIC: [8] Use of undefined constant isDel - assumed 'isDel' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 41 行.
+NOTIC: [8] Undefined index: pid D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 45 行.
+NOTIC: [8] Undefined index: hide D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 46 行.
+NOTIC: [8] Undefined index: top D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 47 行.
+NOTIC: [8] Undefined index: protect D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 48 行.
+NOTIC: [8] Undefined index: date D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 49 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ra_article` WHERE ( `isDel` = 0 ) LIMIT 1   [ RunTime:0.000844s ]
+SQL: SELECT * FROM `ra_article` WHERE ( `isDel` = 0 ) ORDER BY isTop DESC,sort ASC,CONVERT(pubDate,SIGNED) DESC,id DESC LIMIT 0,20   [ RunTime:0.001846s ]
+NOTIC: [8] Undefined index: pid D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2] Missing argument 1 for Adminx\Widget\SidebarWidget::sideCateTable() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Widget\SidebarWidget.class.php 第 6 行.
+NOTIC: [8] Undefined variable: type D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Widget\SidebarWidget.class.php 第 8 行.
+SQL: SELECT * FROM `ra_category` WHERE ( `cate_type` = null ) ORDER BY cate_sort ASC,cate_id DESC  [ RunTime:0.001126s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Widget\CommonWidget.class.php 第 12 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, boolean given D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\function.php 第 246 行.
+NOTIC: [8] Undefined variable: temp D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\function.php 第 251 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\function.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\function.php 第 252 行.
+NOTIC: [8] Undefined variable: output D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\function.php 第 261 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.043184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 23 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 51 行.
+NOTIC: [8] Undefined index: page D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 51 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 53 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 58 行.
+NOTIC: [8] Undefined index: admin D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 58 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 60 行.
+NOTIC: [8] Undefined index: rule D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 60 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 62 行.
+NOTIC: [8] Undefined index: nav D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 62 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 64 行.
+NOTIC: [8] Undefined index: config D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 64 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 87 行.
+SQL: SELECT * FROM `ra_category` WHERE ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id DESC  [ RunTime:0.001179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.067413s ]
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012720s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018813s ]
+SQL: SELECT * FROM `ra_category` WHERE ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id DESC  [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.081316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012364s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.021300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.032992s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 0 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.001376s ]
+NOTIC: [8] Undefined variable: place D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 159 行.
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 5 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000692s ]
+NOTIC: [8] Undefined variable: place D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 157 行.
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 7 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000901s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 8 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000669s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 9 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000667s ]
+NOTIC: [8] Undefined variable: place D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 159 行.
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 10 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000785s ]
+NOTIC: [8] Undefined variable: place D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 157 行.
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 11 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000536s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 12 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000561s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 13 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000816s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000445s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000279s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000232s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000284s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000263s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000352s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000881s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000305s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000443s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000351s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000422s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000305s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 7 ) LIMIT 1   [ RunTime:0.001388s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 7 ) LIMIT 1   [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075444s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.021300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.096184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2014-10-15T23:52:13+08:00 ] 125.41.139.23 /index.php/Adminx/Guestbook/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004933s ]
+NOTIC: [2048] Declaration of Adminx\Controller\CommonController::show() should be compatible with that of Think\Controller::show() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\CommonController.class.php 第 225 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 30 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: sideactive D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `ra_guestbook` [ RunTime:0.017587s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ra_guestbook` WHERE ( `pid` = 0 ) LIMIT 1   [ RunTime:0.002881s ]
+SQL: SELECT * FROM `ra_guestbook` WHERE ( `pid` = 0 ) ORDER BY id DESC LIMIT 0,20   [ RunTime:0.001748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 22 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 50 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 52 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 57 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 59 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 61 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 63 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 84 行.
+NOTIC: [8] Undefined variable: read D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 84 行.
+NOTIC: [8] Undefined variable: hide D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 84 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 85 行.
+NOTIC: [8] Undefined variable: read D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 85 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 86 行.
+NOTIC: [8] Undefined variable: hide D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 86 行.
+NOTIC: [2] Missing argument 1 for Adminx\Widget\GuestbookWidget::bookTable() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Widget\GuestbookWidget.class.php 第 8 行.
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Widget\GuestbookWidget.class.php on line 11 and defined D:\website\wohenkaopu.cn\RunesterAdmin\Framework\Library\Think\Model.class.php 第 1576 行.
+NOTIC: [8] Undefined variable: where D:\website\wohenkaopu.cn\RunesterAdmin\Framework\Library\Think\Model.class.php 第 1584 行.
+NOTIC: [8] Undefined variable: where D:\website\wohenkaopu.cn\RunesterAdmin\Framework\Library\Think\Model.class.php 第 1587 行.
+NOTIC: [8] Undefined variable: where D:\website\wohenkaopu.cn\RunesterAdmin\Framework\Library\Think\Model.class.php 第 1595 行.
+SQL: SELECT * FROM `ra_guestbook` ORDER BY id DESC  [ RunTime:0.001188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033186s ]
+NOTIC: [8] Undefined offset: 3 D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\list.php 第 5 行.
+NOTIC: [8] Undefined offset: 3 D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\list.php 第 5 行.
+NOTIC: [8] Undefined index: isHide D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\list.php 第 54 行.
+NOTIC: [8] Undefined index: id D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\list.php 第 54 行.
+NOTIC: [8] Undefined offset: 3 D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\list.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+NOTIC: [8] Undefined variable: page D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\7c712d3888bd1c2447d2809bc6c2c601.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001931s ]
+
+[ 2014-10-15T23:52:15+08:00 ] 125.41.139.23 /index.php/Adminx/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004663s ]
+NOTIC: [2048] Declaration of Adminx\Controller\CommonController::show() should be compatible with that of Think\Controller::show() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\CommonController.class.php 第 225 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 30 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: _SESSION D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\PublicController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ra_category` [ RunTime:0.008756s ]
+NOTIC: [8] Undefined index: pid D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 37 行.
+SQL: SELECT `title` FROM `ra_category` WHERE ( id =  ) LIMIT 1   [ RunTime:0.000383s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `title` FROM `ra_category` WHERE ( id =  ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ra_article` [ RunTime:0.009159s ]
+NOTIC: [8] Use of undefined constant isDel - assumed 'isDel' D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 41 行.
+NOTIC: [8] Undefined index: pid D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 45 行.
+NOTIC: [8] Undefined index: hide D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 46 行.
+NOTIC: [8] Undefined index: top D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 47 行.
+NOTIC: [8] Undefined index: protect D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 48 行.
+NOTIC: [8] Undefined index: date D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 49 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ra_article` WHERE ( `isDel` = 0 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT * FROM `ra_article` WHERE ( `isDel` = 0 ) ORDER BY isTop DESC,sort ASC,CONVERT(pubDate,SIGNED) DESC,id DESC LIMIT 0,20   [ RunTime:0.000689s ]
+NOTIC: [8] Undefined index: pid D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Controller\ArticleController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000427s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [2] Missing argument 1 for Adminx\Widget\SidebarWidget::sideCateTable() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Widget\SidebarWidget.class.php 第 6 行.
+NOTIC: [8] Undefined variable: type D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Widget\SidebarWidget.class.php 第 8 行.
+SQL: SELECT * FROM `ra_category` WHERE ( `cate_type` = null ) ORDER BY cate_sort ASC,cate_id DESC  [ RunTime:0.000434s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Widget\CommonWidget.class.php 第 12 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, boolean given D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\function.php 第 246 行.
+NOTIC: [8] Undefined variable: temp D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\function.php 第 251 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\function.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\function.php 第 252 行.
+NOTIC: [8] Undefined variable: output D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\function.php 第 261 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024890s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 23 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 51 行.
+NOTIC: [8] Undefined index: page D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 51 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 53 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 58 行.
+NOTIC: [8] Undefined index: admin D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 58 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 60 行.
+NOTIC: [8] Undefined index: rule D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 60 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 62 行.
+NOTIC: [8] Undefined index: nav D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 62 行.
+NOTIC: [8] Undefined variable: Thik D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 64 行.
+NOTIC: [8] Undefined index: config D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 64 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 87 行.
+SQL: SELECT * FROM `ra_category` WHERE ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id DESC  [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.051928s ]
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+NOTIC: [8] Undefined variable: Think D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\51015d1713c5e5531b06ba77c92cae5d.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015469s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021147s ]
+SQL: SELECT * FROM `ra_category` WHERE ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id DESC  [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.071383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016368s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.027156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.042903s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 0 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000478s ]
+NOTIC: [8] Undefined variable: place D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 159 行.
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 5 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000264s ]
+NOTIC: [8] Undefined variable: place D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 157 行.
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 7 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000253s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 8 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000256s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 9 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000296s ]
+NOTIC: [8] Undefined variable: place D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 159 行.
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 10 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: place D:\website\wohenkaopu.cn\RunesterAdmin\Apps\Adminx\Common\HtmlDB.php 第 157 行.
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 11 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000440s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 12 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000294s ]
+SQL: SELECT `cate_id`,`cate_title` FROM `ra_category` WHERE ( `cate_pid` = 13 ) AND ( `cate_type` = 'Article' ) ORDER BY cate_sort ASC,cate_id ASC  [ RunTime:0.000983s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000456s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000293s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000591s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000218s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000274s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000286s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000295s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000238s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 9 ) LIMIT 1   [ RunTime:0.000685s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000309s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 8 ) LIMIT 1   [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 7 ) LIMIT 1   [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: isTopColor D:\website\wohenkaopu.cn\RunesterAdmin\public\Runtime\Cache\Adminx\89adaa21df0fc65d39b74f1e2a86e490.php 第 164 行.
+SQL: SELECT `cate_title` FROM `ra_category` WHERE ( `cate_id` = 7 ) LIMIT 1   [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064283s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.027156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.090719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+

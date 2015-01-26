@@ -1,0 +1,127 @@
+﻿/* 侧边栏按钮组 */
+.ContainerLeft .sidebarBtn{width: 100px;height: 70px;display: block;background: url("../images/sidebar/button.png") no-repeat;border-top: 1px solid #555555;border-bottom: 1px solid #2e2e2e;}
+.ContainerLeft .btnPage{background-position: 0 0;}
+.ContainerLeft .btnArticle{background-position: 0 -70px;}
+.ContainerLeft .btnUser{background-position: 0 -140px;}
+.ContainerLeft .btnNav{background-position: 0 -210px;}
+.ContainerLeft .btnSetting{background-position: 0 -280px;}
+.ContainerLeft .btnQuit{background-position: 0 -350px;}
+.ContainerLeft .btnRule{background-position: 0 -560px;}
+.ContainerLeft .btnGuestbook{background-position: 0 -420px;}
+.ContainerLeft .btnPlugin{background-position: 0 -490px;}
+
+.ContainerLeft .btnPage:hover{background-position: -100px 0;}
+.ContainerLeft .btnArticle:hover{background-position: -100px -70px;}
+.ContainerLeft .btnUser:hover{background-position: -100px -140px;}
+.ContainerLeft .btnNav:hover{background-position: -100px -210px;}
+.ContainerLeft .btnSetting:hover{background-position: -100px -280px;}
+.ContainerLeft .btnQuit:hover{background-position: -100px -350px;}
+.ContainerLeft .btnRule:hover{background-position: -100px -560px;}
+.ContainerLeft .btnGuestbook:hover{background-position: -100px -420px;}
+.ContainerLeft .btnPlugin:hover{background-position: -100px -490px;}
+
+.ContainerLeft .btnPageActive{background-position: -200px 0 !important;}
+.ContainerLeft .btnArticleActive{background-position: -200px -70px !important;}
+.ContainerLeft .btnUserActive{background-position: -200px -140px !important;}
+.ContainerLeft .btnNavActive{background-position: -200px -210px !important;}
+.ContainerLeft .btnSettingActive{background-position: -200px -280px !important;}
+.ContainerLeft .btnQuitActive{background-position: -200px -350px !important;}
+.ContainerLeft .btnRuleActive{background-position: -200px -560px;}
+.ContainerLeft .btnGuestbookActive{background-position: -200px -420px !important;}
+.ContainerLeft .btnPluginActive{background-position: -200px -490px !important;}
+
+
+/* 内容区 导航大按钮 */
+.navButton{margin: 40px auto;text-align:center;}
+.navButton li {margin: 0 10px;display:inline;}
+.navButton li a{width: 100px;height:24px;padding-top: 50px; display: inline-block;color: #626262;font-size: 12px;}
+.navButton li .pageBtn{background: url("../images/topfun_btn/page.png") no-repeat;}
+.navButton li .articleBtn{background: url("../images/topfun_btn/article.png") no-repeat;}
+.navButton li .navBtn{background: url("../images/topfun_btn/nav.png") no-repeat;}
+.navButton li .advBtn{background: url("../images/topfun_btn/adv.png") no-repeat;}
+.navButton li .userBtn{background: url("../images/topfun_btn/user.png") no-repeat;}
+.navButton li .ruleBtn{background: url("../images/topfun_btn/rule.png") no-repeat;}
+.navButton li .imBtn{background: url("../images/topfun_btn/im.png") no-repeat;}
+.navButton li .linkBtn{background: url("../images/topfun_btn/link.png") no-repeat;}
+.navButton li .favoriteBtn{background: url("../images/topfun_btn/favorite.png") no-repeat;}
+.navButton li .commentBtn{background: url("../images/topfun_btn/comment.png") no-repeat;}
+
+.navButton li .navButton1{background-position: 0 0;}
+.navButton li .navButton2{background-position: 0 -74px;}
+.navButton li .navButton3{background-position: 0 -148px;}
+.navButton li .navButton4{background-position: 0 -222px;}
+.navButton li .navButton5{background-position: 0 -296px;}
+.navButton li .navButton6{background-position: 0 -370px;}
+.navButton li .navButton7{background-position: 0 -444px;}
+.navButton li .navButton1:hover{background-position: -100px 0;}
+.navButton li .navButton2:hover{background-position: -100px -74px;}
+.navButton li .navButton3:hover{background-position: -100px -148px;}
+.navButton li .navButton4:hover{background-position: -100px -222px;}
+.navButton li .navButton5:hover{background-position: -100px -296px;}
+.navButton li .navButton6:hover{background-position: -100px -370px;}
+.navButton li .navButton7:hover{background-position: -100px -444px;}
+/* 通用红蓝大按钮 */
+.btn3{width: 196px;height:36px;line-height: 36px; display: block;background: url("../images/submit_big.png") no-repeat;border: 0;color: #FFF;margin:15px auto;cursor: pointer;}
+.Btn3Blue{background-position:  0 0;}
+.Btn3Blue:hover{background-position:  0 -36px;}
+.Btn3Red{background-position:  0 -72px;}
+.Btn3Red:hover{background-position:  0 -108px;}
+.Btn3Disable{background-position:  0 -144px;}
+
+/* 通用红绿中按钮 */
+.btn2{width: 95px;height:30px;display: block;background: url("../images/submit_small.png") no-repeat;border: 0;color: #FFF;cursor: pointer;font-size: 12px;float: right;}
+.Btn2Red{background-position:  0 0;}
+.Btn2Red:hover{background-position:  0 -30px;}
+.Btn2Green{background-position:  0 -60px;}
+.Btn2Green:hover{background-position:  0 -90px;}
+
+/* 通用小按钮组 */
+.btn{width: 69px;height:32px;line-height: 32px; background: url("../images/content/but_bg.png") no-repeat;border: 0;cursor: pointer;color: #FFF;display: inline-block;font-size: 12px;text-align: center;margin: 0 5px;}
+.btn:hover{text-decoration: none;}
+.btnWhite{background-position: 0 0;color: #000;}
+.btnBlue{background-position: 0 -32px;}
+.btnCyan{background-position: 0 -64px;}
+.btnRed{background-position: 0 -96px;}
+.btnYellow{background-position: 0 -128px;}
+.btnGreen{background-position: 0 -160px;}
+.btnBlack{background-position: 0 -192px;}
+.btnWhite:hover{background-position: -69px 0;}
+.btnBlue:hover{background-position: -69px -32px;}
+.btnCyan:hover{background-position: -69px -64px;}
+.btnRed:hover{background-position: -69px -96px;}
+.btnYellow:hover{background-position: -69px -128px;}
+.btnGreen:hover{background-position: -69px -160px;}
+.btnBlack:hover{background-position: -69px -192px;}
+
+/* 列表功能按钮 */
+.listBtn{width: 22px;height:25px;display: inline-block;background: url("../images/content/list_btn.png") no-repeat;margin:0 3px;_position: relative;_top: 7px; }
+.lbtnEdit{background-position: 0 0;}
+.lbtnRecycle{background-position: 0 -25px;}
+.lbtnRecycleDisable{background-position: -44px -25px;cursor: default;}
+.lbtnRestore{background-position: 0 -50px;}
+.lbtnDelete{background-position: 0 -75px;}
+.lbtnShow{background-position: 0 -100px;}
+.lbtnHide{background-position: -22px -125px;}
+.lbtnProtect{background-position: -22px -150px;}
+.lbtnNoProtect{background-position: 0 -175px;}
+.lbtnTop{background-position: 0 -200px;}
+.lbtnDown{background-position: -22px -225px;}
+.lbtnEnter{background-position: 0 -250px;}
+.lbtnDisable{background-position: 0 -275px;}
+.lbtnEnable{background-position: -22px -275px;}
+.lbtnAuth{background-position: 0 -300px;}
+.lbtnReply{background-position: 0 -325px;}
+.lbtnEdit:hover{background-position: -22px 0;}
+.lbtnRecycle:hover{background-position: -22px -25px;}
+.lbtnRestore:hover{background-position: -22px -50px;}
+.lbtnDelete:hover{background-position: -22px -75px;}
+.lbtnShow:hover{background-position: -22px -100px;}
+.lbtnHide:hover{background-position: -22px -125px;}
+.lbtnProtect:hover{background-position: -22px -150px;}
+.lbtnNoProtect:hover{background-position: -22px -175px;}
+.lbtnTop:hover{background-position: -22px -200px;}
+.lbtnDown:hover{background-position: -22px -225px;}
+.lbtnEnter:hover{background-position: -22px -250px;}
+.lbtnDisable:hover{background-position: -22px -275px;}
+.lbtnAuth:hover{background-position: -22px -300px;}
+.lbtnReply:hover{background-position: -22px -325px;}
