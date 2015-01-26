@@ -1,2 +1,2 @@
 # RunesterAdmin
-RunesterAdmin CMS
+RunesterAdmin是基于ThinkPHP的网站管理系统。
